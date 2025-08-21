@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #fffcdc;
+}
+h1 {
+    font-weight: 400;
+}
+.container {
+    width: 250px;
+    height:  420px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.display {
+    margin: 20px;
+    width: 80%;
+    font-size: 35px;
+}
+input {
+    text-align: right;
+      /* box-shadow: 0px 0px 5px 5px rgba(163, 32, 32, 0.8); */
+      filter: drop-shadow(5px 5px 0px rgba(192, 192, 192, 0.513));
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.btn {
+    width: 53px;
+    height: 58px;
+    margin: 4px;
+    color: #0e1b14;
+    font-weight: 500;
+}
+.operrator {
+    color: #102542;
+}
+.equel-btn {
+    color: rgb(255, 196, 1);
+}
